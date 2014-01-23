@@ -12,3 +12,10 @@ Familiaridade com linhas de comando GNU/Linux e também com conceitos básicos d
 
 Usos deste documento
 ----------------------
+Este documento tenta ser útil para as seguinte situações:
+
+*	Você possui alguma ideia sobre programação e deseja começar a programar alguns script para shell.
+*	Você possui uma vaga ideia sobre programação para shell e deseja alguma referência.
+* 	Você quer ver alguns scripts e comentários para começar a escrever seus próprios.
+*	Você está migranto do DOS/Windows (ou já fez) e deseja fazer alguns "batch process" (execução de uma série de programas)
+*	Você é um completo nerd e lê tudo o que há de disponível.
