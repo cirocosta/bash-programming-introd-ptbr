@@ -1,2 +1,7 @@
 # Virtualenv
 .env/
+
+#  Rendered
+_build
+_static
+_templates
