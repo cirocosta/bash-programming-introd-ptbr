@@ -2,6 +2,6 @@
 .env/
 
 #  Rendered
-_build
-_static
-_templates
+build/
+_static/
+_templates/
