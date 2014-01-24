@@ -3,7 +3,7 @@ Introduction
 
 Obtendo a última versão
 ------------------------
-<http://www.linuxdoc.org/HOWTO/Bash-Prog-Intro-HOWTO.html>
+http://www.linuxdoc.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 
 Requisitos
 -----------
