@@ -2,47 +2,48 @@ Tudo sobre redirecionamento
 ============================
 Teoria e rápida referência
 ---------------------------
-There are 3 arquivo descriptors, stdin, stdout and stderr (std=standard).
+Existem três descritores de arquivo: **stdin**, **stdout** e **stderror** (sendo std = Standard = Padrão).
 
-Basically you can:
+Basicamente você pode:
 
-*	redirect stdout to a arquivo
-*	redirect stderr to a arquivo
-*	redirect stdout to a stderr
-*	redirect stderr to a stdout
-*	redirect stderr and stdout to a arquivo
-*	redirect stderr and stdout to stdout
-*	redirect stderr and stdout to stderr
+*	redirecionar **stdout para** um **arquivo**
+*	redirecionar **stderr para** um **arquivo**
+*	redirecionar **stdout para** um **stderr**
+*	redirecionar **stderr para** uma **stdout**
+*	redirecionar **stderr e stdout** para **arquivo**
+*	redirecionar **stderr e stdout ** para **stdout**
+* 	redirecionar **stderr e stdout** para **stderr**
 
-1 'represents' stdout and 2 stderr.
 
-A little note for seeing this things: with the less command you can view both stdout (which will remain on the buffer) and the stderr that will be printed on the screen, but erased as you try to 'browse' the buffer.
+Em ShellScript **1** representará *stdout* e **2** representará *stderr*.
+
+Uma pequena anotação quanto à visualização destes: com o comando `less` você pode ver tanto o stdout (que permanecerá no buffer) quanto o stderr que será printado na tela, mas apagado quando tentar 'navegar' (browse) pelo buffer.
+
 
 Exemplo: stdout para arquivo
 ------------------------------
-This will cause the ouput of a program to be written to a arquivo.
+Isto fará com que a saida do programa seja escrita no arquivo. 
 
 .. code-block:: bash
 
          ls -l > ls-l.txt
 
-        
-Here, a arquivo called 'ls-l.txt' will be created and it will contain what you would see on the screen if you type the command 'ls -l' and execute it.
+Aqui, o arquivo chamado `ls-l.txt` será criado e então conterá o que poderia ser visto na tela caso o comando `ls -l` fosse executado.        
 
 Exemplo: stderr 2 arquivo
 ---------------------------
-This will cause the stderr ouput of a program to be written to a arquivo.
+Isto fará com que a saída do **stderr** seja escrita para um arquivo.
 
 .. code-block:: bash
 
          grep da * 2> grep-errors.txt
 
         
-Here, a arquivo called 'grep-errors.txt' will be created and it will contain what you would see the stderr portion of the output of the 'grep da \*' command.
+Aqui o arquivo chamado `grep-errors.txt' será criado e então conterá o que poderia ser visto da porção do **stderr** da saída do comando `grep da \\*`.
 
 Exemplo: stdout 2 stderr
 -------------------------
-This will cause the stderr ouput of a program to be written to the same arquivodescriptor than stdout.
+Isto fara com que a saída de **stderr** do programa seja escrita para o mesmo arquivo do **stdout**.
 
 .. code-block:: bash
 

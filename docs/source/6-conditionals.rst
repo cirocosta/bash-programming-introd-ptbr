@@ -6,15 +6,14 @@ Condicionais dão-lhe o poder de decidir entre perfomar uma ação ou não após
 
 Teoria Pura
 ------------
-
 Condicionais possuem várias formas. Em sua forma mais básica: 
-.. code-block:: 
+
+.. code-block:: bash
 
 	se expressao, então 
 		declaração
 
-
- é apenas executada se a`expressão for verificada como Verdade. Por exemplo:
+é apenas executada se a expressão for verificada como Verdade. Por exemplo:
 
 .. code-block:: bash
 
@@ -23,19 +22,20 @@ Condicionais possuem várias formas. Em sua forma mais básica:
 	#Falso
 	2 > 1 
 
-
 Condicionais possuem outras formas tais como:
-.. code-block:: 
+
+.. code-block:: bash
 
 	se condição, então
 		declaração1
 	caso contrário
 		declaração2
 
-Neste caso `declaração1` é executada apenass se `condição` é verdadeira, caso contrário `declaração2` é executada.
+Neste caso `declaração1` é executada apenas se `condição` é verdadeira, caso contrário `declaração2` é executada.
 
 Enquanto outra forma de condicional é:
-.. code-block::
+
+.. code-block:: bash
 
 	se condição1, então
 		declaraçaõ1
@@ -49,7 +49,8 @@ Neste caso apenas é adicionada a condição da `condição2` para ser avaliada 
 Sobre a sintaxe:
 
 A base dos *se* e *senão* (**if** e **else**) em bash é:
-.. code-block::
+
+.. code-block:: bash
 
 	if [expression];
 	then

@@ -1,9 +1,13 @@
 Bash Programming: How To (pt_br Translation!)
 =============================================
 
-Original
----------
-O documento original redigido por Mike G pode ser encontrado na seção de HOW-TOs da The Linux Documentation Project <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html>.
+O documento `original redigido por Mike G <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html>`_ pode ser encontrado na seção de HOW-TOs da The Linux Documentation Project.
+
+Este não é um guia avançado, mas bastante simplificado e direto quanto a conceitos e funções básicas. Não é a pretenção deste abordar a fundo os tópicos, o que pode ser percebido inclusive pelo tamanho destes. 
+
+De grande valia este documento pode ser para aqueles que desejem iniciar algo rápido para possuir alguma base para futuros estudos.
+
+Para aprendizado posterior a este recomendo a leitura do `Advanced Bash-Scripting Guide <http://www.tldp.org/LDP/abs/html/>`_ de Mendel Cooper. 
 
 
 Este Documento
