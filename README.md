@@ -10,6 +10,23 @@ Este Projeto
 Este projeto busca primariamente ser uma fonte de futura referência para o autor e, quem sabe, para a comunidade. Mais do que apenas traduzir, o autor espera que ao apresentar ao público geral um simples documento praticamente puro de HTML numa forma mais iterativa/visualmente agradável, incentivar (ou tentar não desistimular) um número maior de pessoas.
 
 
+Preparando o ambiente
+---
+Execute o script `setup.sh` (necessita de permissões para instalar componentes). Este irá preparar o ambiente de desenvolvimento (pip, virtualenv, requirements)
+```
+$ ./setup.sh
+```
+
+Ative o ambiente:
+```
+$ source .env/bin/activate
+```
+
+Para sair do mesmo:
+```
+$ deactivate
+```
+
 Estrutura
 ----------------
 
@@ -23,7 +40,7 @@ setup.sh    	   	-- configura o ambiente de desenvolvimento
 requirements.txt   	-- dependências do projeto
 ```
 
-Conhecida a estrutura do projeto, para *buildar* o mesmo basta, estando no diretório docs:
+Conhecida a estrutura do projeto, para *buildar* o mesmo basta, estando no diretório `docs`:
 ```bash
 
 $ make html  
